@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+	<head>
+	  <title>Aide de Menu</title>
+	</head>
+	<body>
+    <p>Menu vous permet d’afficher un menu pouvant avoir plusieurs niveaux sur votre blog, si votre thème le supporte.</p>
+    
+    <dl>
+      <dt>Menu</dt>
+      <dd>Ici sont affichés les items de votre menu.<br />
+      Vous pouvez les ordonner en déplaçant les lignes vers le haut ou vers le bas.<br />
+      Vous pouvez également modifier le libellé, la description, l’URL et le niveau de chaque item de menu.<br />
+      Une fois terminé, cliquez sur « Mettre à jour le menu ».</dd>
+      
+      <dt>Supprimer les items de menu sélectionnés</dt>
+      <dd>Vous permet de supprimer les items de menu que vous souhaitez en cochant les cases pour chacun d’eux.</dd>
+
+      <dt>Ajouter un item de menu / Editer un item de menu</dt>
+      <dd>Indiquez ici le libellé, l'URL, la description (facultative), le niveau, la langue et la classe CSS de l’item de menu.<br />
+      Une fois effectué cliquer sur « Enregistrer ».</dd>
+
+      <dd>
+      <ul>
+        <li><strong>Libellé de l'item de menu :</strong> indiquez ici le libellé. Par exemple "Archives". Ce champs est obligatoire.</li>
+        <li><strong>URL de l'item de menu :</strong> indiquez ici la destination. Ce champ est obligatoire.</li>
+        <li><strong>Description :</strong> indiquez ici une courte description pour cet item (sera affiché sous le libellé en fonction du thème sélectionné). Par exemple "Archives de 2004 à 2011".</li>
+        <li><strong>Niveau :</strong> indiquez ici le niveau de l'item de menu. Pour un item de 1er niveau indiquez <code>1</code> dans la case, pour un item de 2ème niveau indiquez <code>2</code>, etc. Indiquer <code>0</code> dans la case masquera l'item côté public.</li>
+        <li><strong>Langue :</strong> indiquez ici la langue du lien.</li>
+        <li><strong>Classe CSS :</strong> indiquez ici la classe CSS spécifique à l'item.</li>
+      </ul>
+      </dd>
+      
+      <dt>Intégration dans un thème</dt>
+      <dd>Le template <code>{{tpl:Menu}}</code> n'affichera par défaut sur le blog que les liens de niveau 1.<br />
+      Si vous désirez un menu affichant les sous-menus, il faut le spécifier avec l'attribut "level" ainsi : <code>{{tpl:Menu level="0"}}</code><br />
+      Le widget lui affiche par défaut toute la hiérarchie du menu.
+      </dd>
+      
+    </dl>
+  </body>
+</html>

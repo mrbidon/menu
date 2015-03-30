@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+	<head>
+	  <title>Aide de Menu</title>
+	</head>
+	<body>
+    <p>Menu allows you to display a menu can have multiple levels on your blog, if your theme supports it.</p>
+
+    <dl>
+      <dt>Menu</dt>
+      <dd>Here are displayed the items on your menu.<br />
+      You can reorder this list by dragging its items up and down.<br />
+      You can also change the wording, description, URL, and the level of each menu item.<br />
+      Once done, click on <strong>Update menu</strong>.</dd>
+      
+      <dt>Delete selected menu items</dt>
+      <dd>Allows you to delete the menu items you want by checking the boxes for each of them.</dd>
+      
+      <dt>Add a menu item / Edit a menu item</dt>
+      <dd>Enter here the text, URL, description (optional), the level of language and the CSS class of the menu item.<br />
+      Once done, click on <strong>Save</strong>.</dd>
+
+      <dd>
+      <ul>
+        <li><strong>Label of the menu item:</strong> the anchor text. For example "Archives". This field is mandatory.</li>
+        <li><strong>URL of the menu item:</strong> the item URL. This field is mandatory.</li>
+        <li><strong>Description:</strong> a short description for the menu item (will be displayed under the label depending on the selected theme). For example: "Archives from 2004 to 2011".</li>
+        <li><strong>Level:</strong> here indicate the level of the menu item. For item 1 level indicate <code>1</code> in the box for an item in the second level indicate <code>2</code>, etc. Indicate <code>0</code> in the box will hide the item public side.</li>
+        <li><strong>Language:</strong> indicate here the language link.</li>
+        <li><strong>CSS class:</strong> indicate here the specific CSS class to the item.</li>
+      </ul>
+      </dd>
+
+      <dt>Integration into a theme</dt>
+      <dd>Template <code>{{tpl:Menu}}</code> will default on the blog that Level 1 links.<br />
+      If you want a display submenus menu, specify it with the "level" attribute as follows: <code>{{tpl:Menu level="0"}}</code><br />
+      The widget displays default it all the menu hierarchy.
+      </dd>
+      
+    </dl>
+  </body>
+</html>

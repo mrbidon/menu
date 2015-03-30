@@ -1,0 +1,20 @@
+v1.8.7 (05-03-2015) - Pierre Van Glabeke
+* reprise du menu avec l'accord de l'auteur initial
+* ajout identification widget
+* modifications cosmétique dc2.6
+* modification aide
+
+v1.8.6 (17-12-2014) - Pierre Van Glabeke
+* compatibilité dc2.7 (widget)
+* modification aide intégrée
+
+v1.8.5 (09-04-2014) - Pierre Van Glabeke
+* dc2.6 requis
+* ajout aide intégrée
+* ajout combo affichage widget (dc2.5)
+* modifications cosmétique dc2.6
+* modification icône
+* modifications localisations
+* modification bloc licence
+* suppression des infos xfn
+* correction bug cf http://forum.dotclear.org/viewtopic.php?pid=324523#p324523

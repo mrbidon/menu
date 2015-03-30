@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: brol <contact@brol.info>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "Manage your menu"
+msgstr "Gérez votre menu"
+
+msgid "List of menu items at one or more levels"
+msgstr "Liste des éléments de menu à un ou plusieurs niveaux"
+
+#: _admin.php:24
+msgid "manage menu"
+msgstr "gestion du menu"
+
+#: class.dc.blogmenu.php:34
+#: edit.php:41
+#: index.php:35
+#: index.php:211
+msgid "posts selected"
+msgstr "billets sélectionnés"
+
+#: edit.php:102
+msgid "Return to menu"
+msgstr "Retour au menu"
+
+#: edit.php:128
+#: index.php:293
+msgid "Level:"
+msgstr "Niveau :"
+
+#: edit.php:131
+#: index.php:297
+msgid "Class:"
+msgstr "Classe CSS :"
+
+msgid "Class"
+msgstr "Classe CSS"
+
+#: edit.php:135
+#: index.php:302
+msgid "Auto links:"
+msgstr "Liens auto :"
+
+#: index.php:177
+msgid "Items has been successfully updated"
+msgstr "Éléments mis à jour avec succès"
+
+#: index.php:195
+msgid "Level"
+msgstr "Niveau"
+
+#: index.php:261
+msgid "Save items"
+msgstr "Enregistrer les modifications"
+
+msgid "Changing the item"
+msgstr "Modification de l'item de menu"
+
+msgid "Add an item"
+msgstr "Ajouter un item de menu"
+
+msgid "New item"
+msgstr "Nouvel item"
+
+msgid "Menu item has been successfully created."
+msgstr "L'item de menu a été créé avec succès."
+
+msgid "Label of item menu:"
+msgstr "Libellé de l'item de menu :"
+
+msgid "URL of item menu:"
+msgstr "URL de l'item de menu :"
+
+msgid "Label and URL of menu item are mandatory."
+msgstr "Les libellés et URL sont obligatoires."
+
+msgid "Note: 0 = hide menu item; 1 = level of item 1; 2 = item level 2; etc."
+msgstr "Nota : 0 = item de menu masqué ; 1 = item de niveau 1 ; 2 = item de niveau 2 ; etc."
+
