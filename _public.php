@@ -61,7 +61,7 @@ class tplMenu
 			{
 				define ('LI_ACTIVE', 'class="active"');
 			}
-			
+
 			define ('THEME_STYLE', 'true');
 		}
 	}
@@ -252,11 +252,22 @@ class tplMenu
 			}			
 			
 			# Link generator
+
+			################### modif
+			$style_a = "";
+			$a_span = $style_theme['a_span'];			
+
+			if($level < $old_level){
+				$style_a = $style_theme['li_a'.$style];
+				$a_span = $style_theme['a_span']."<span class='caret'>";
+			}
+
 			$link =
-			'<a href="'.html::escapeHTML($href).'"'.stripslashes($style_theme['li_a'.$style]).
+			'<a href="'.html::escapeHTML($href).'"'.stripslashes($style_a).
 			((!$lang) ? '' : ' hreflang="'.html::escapeHTML($lang).'"').
 			((!$desc) ? '' : ' title="'.html::escapeHTML($desc).'"').
-			'>'.sprintf(stripslashes($style_theme['a_span']),html::escapeHTML($title)).'</a>';
+			'>'.sprintf(stripslashes($a_span),html::escapeHTML($title)).'</a>';
+			#####################
 
 			# add class to each link :
 			if ($class == '') { $class = 'menu-item-'.$id; }
