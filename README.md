@@ -5,4 +5,4 @@ Menu vous permet d’afficher un menu pouvant avoir plusieurs niveaux sur votre 
 
 Fork :
 - fonctionne avec le thème grayscale
-- identife visuellement les profondeurs de menu
+- identife visuellement les profondeurs de menu à l'aide d'un petit triangle
